@@ -22,15 +22,16 @@
 
 .main {
   float: left;
-  width: 800px;
+  width: 1200px;
+  margin: 10px;
 }
 
 h3 {
+  color: white;
   border: 1px solid black;
 }
 
 .green {
-  background-color: green;
   border: 1px solid black;
 }
 
@@ -39,7 +40,7 @@ h3 {
 }
 
 .blue {
-  background-color: blue;
+  border: 1px solid black;
 }
 
 .blue h3 {
@@ -47,7 +48,7 @@ h3 {
 }
 
 .purple {
-  background-color: purple;
+  border: 1px solid black;
 }
 
 .purple h3 {
@@ -61,12 +62,51 @@ h6{
   list-style-type: none;
 }
 
+.snake {
+  width: 200px;
+  float: right;
+}
+
+span {
+  font-weight: bold;
+}
+
 #sink {
   border: 1px solid black;
   margin-top: 100px;
-  margin-left: 1px;
 }
 
-@media screen and() {
+@media screen and (max-width: 1500px) {
+  .main {
+    width: 1000px;
+  }
+
+}
+
+@media screen and (max-width: 1300px) {
+  .main {
+    width: 800px;
+  }
+
+}
+
+@media screen and (max-width: 1100px) {
+  .main {
+    width: 600px;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+  .main {
+    width: 450px;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  .main {
+    width: 400px;
+  }
 
 }
