@@ -3,6 +3,7 @@
   height: 100vh;
   border: 1px solid black;
   float: left;
+  margin: 10px;
 }
 
 #logo {
@@ -16,4 +17,9 @@
 
 .topbar li{
   display: inline-block;
+}
+
+.main {
+  float: left;
+  width: 1000px;
 }
