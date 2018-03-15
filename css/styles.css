@@ -72,8 +72,9 @@ span {
 }
 
 #sink {
+  background-color: lightgray;
   border: 1px solid black;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 1500px) {
@@ -99,7 +100,7 @@ span {
 
 @media screen and (max-width: 900px) {
   .main {
-    width: 450px;
+    width: 400px;
   }
 
 }
