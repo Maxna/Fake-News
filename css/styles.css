@@ -1,0 +1,19 @@
+.sidebar {
+  width: 100px;
+  height: 100vh;
+  border: 1px solid black;
+  float: left;
+}
+
+#logo {
+  width: 100px;
+}
+
+.topbar {
+  text-align: right;
+
+}
+
+.topbar li{
+  display: inline-block;
+}
